@@ -10,6 +10,7 @@ const page = async () => {
         <h1 className="text-2xl font-bold  mb-6  bg-green-300 text-gray-700 text-center py-6">
           Blog Posts Title
         </h1>
+        
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {posts.slice(0,12).map((post, index) => (
             <li key={post.id} className="border rounded-lg p-6 ">
